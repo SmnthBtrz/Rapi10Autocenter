@@ -1,0 +1,71 @@
+.delivery {
+    
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.bg__delivery {
+    background-color: var(--amarelo-claro);
+}
+
+.delivery__titulo {
+    color: var(--preto);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 1.25rem;
+}
+
+.delivery__texto {
+    line-height: normal;
+
+    margin-bottom: 1rem;
+}
+
+.delivery__texto--destaque {
+    color: var(--vermelho);
+    font-weight: 700;
+    
+}
+
+.servicos__botao-delivery {
+
+    width: 100%;
+    background-color: var(--vermelho);
+    color: var(--amarelo-claro);
+    margin-top: 2rem;
+    margin-left: 3rem;
+    align-items: center;
+}
+
+
+.delivery__imagem {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .delivery {
+        display: flex;
+    }
+
+    .delivery__conteudo {
+        margin-right: 3rem;
+    }
+
+    .delivery__titulo {
+        text-align: left;
+    }
+
+    .delivery__texto--divisao {
+        border-bottom: 1px solid var(--preto);
+
+        padding-bottom: 1.5rem;
+    }
+
+    .delivery__imagem {
+        display: block;
+    }
+}

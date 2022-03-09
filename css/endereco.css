@@ -1,0 +1,83 @@
+.cabecalho {
+    color: var(--preto);
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+
+    border-bottom: 1px solid var(--vermelho);
+
+    position: relative;
+}
+
+.cabecalho__logo {
+    margin-bottom: 1rem;
+    width: 50%;
+    height: 50%;
+}
+
+.cabecalho__navegacao {
+    text-align: center;
+}
+
+.cabecalho__link {
+    font-size: 1.1rem;
+
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+}
+
+.cabecalho__link:hover{
+    color: var(--vermelho);
+    font-weight: bold;
+}
+
+
+.end__mapa  {
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    
+     color: var(--amarelo-claro);
+     text-align: center;
+    
+     padding-top: 2rem;
+     padding-bottom: 2rem;
+ }
+
+ 
+
+ .end__mapa-conteudo {
+
+	width: 90%;
+	margin: 0 auto;
+
+ }
+    
+ .end__mapa-titulo {
+
+     color: var(--preto);
+     font-weight: 700;
+     font-size: 1.5rem;
+     font-family: var(--montserrat);
+     text-transform: uppercase;
+     text-align: center;
+    
+ }
+    
+.end__texto {
+    color: var(--preto);
+    padding: 2rem;
+
+}

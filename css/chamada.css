@@ -1,0 +1,53 @@
+.chamada  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--preto);
+    text-align: center;
+    
+    background-color: var(--amarelo);
+
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+.chamada__titulo {
+    font-family: var(--Open-Sans);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.chamada__texto {
+    font-size: 1.10rem;
+    line-height: normal;
+    margin: 0 auto 1rem;
+    text-transform: uppercase;
+}
+
+.chamada__botao {
+    width: 100%;
+    background-color: var(--vermelho);
+    color: var(--amarelo-claro);
+}
+
+@media screen and (min-width: 768px) {
+    .chamada__texto {
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .chamada {
+
+        background-color: var(--amarelo);
+        background-size: cover;
+
+        padding-top: 2rem;
+    }
+
+ 
+}

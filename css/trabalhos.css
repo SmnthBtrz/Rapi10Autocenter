@@ -1,0 +1,62 @@
+.trabalhos {
+    background-color: var(--amarelo-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--preto);
+    text-align: center;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.trabalhos__titulo {
+    color: var(--preto);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 2rem;
+}
+
+.trabalhos__descricao {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.trabalhos__videos {
+
+    width: 60%;
+    padding: 1rem;;
+    
+}
+
+@media screen and (min-width: 768px) {
+  
+    .trabalhos__videos {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .trabalhos__conteudo {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        
+        text-align: left;
+    }
+
+    .trabalhos__videos {
+        align-self: center;
+        
+        width: 80%;
+    }
+
+    
+}
